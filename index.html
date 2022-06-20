@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <style>
+    *{
+        list-style: none;
+        text-decoration: none;
+        border-collapse: collapse;
+        margin: 0px;
+        padding: 0px;
+        color: #000;
+    }
+    .intro_bg{
+        background-image: url("images/roster_view_bg_01.jpg");
+        width: 100%;
+        height: 718px;
+    }
+    .header{
+        display: flex;
+        width: 1280px;
+        margin:auto;
+        background: rgba(0,0,0,0.5);
+        height: 86px;
+    }
+    .searcharea{
+        width: 300px;
+        height: 40px;
+        background:rgba(0,0,0,0.5);
+        border-radius: 5px;
+        margin-top: 24px;
+    }
+    .searcharea > form > input {
+        border: none;
+        width:200px;
+        height: 40px;
+        background:rgba(0,0,0,0.5);
+        color: #fff;
+        padding-left: 10px;
+    }
+    .searcharea > form > span {
+        width: 50px;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    .nav{
+        display: flex;
+        justify-content: flex-end;
+        line-height: 86px;
+        width:calc(1280px);
+    }
+    .nav > li{
+        margin-left: 84px;
+    }
+    .nav > li > a{
+        color:#fff;
+    }
+    .intro_text{
+        width:100%;
+        margin:231px auto 231px auto;
+        text-align: center;
+    }
+    .h1{
+        font-size: 48px;
+        font-weight: 100;
+    }
+    .contents1 {
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    .contents2 {
+        font-size: 24px;
+    }
+    .amount {
+        position: relative;
+        top: -66px;
+        display: flex;
+        width: 1280px;
+        background: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        margin: auto;
+    }
+    .amount > li {
+        flex: 1;
+        height: 132px;
+    }
+    .amount > li > div {
+        text-align: center;
+        border-right: 1px solid gray;
+        height: 57px;
+        margin-top: 37px;
+    }
+    
+  </style>
+
+  <body>
+    <div class="intro_bg">
+        <div class="header">
+            <div class="searcharea">
+                <form>
+                <input type="search" placeholder="search">
+                <span> 검색 </span>
+                </form>
+            </div>
+            <ul class="nav">
+                <li><a href="2.html"> 구단소개</a></li>
+                <li><a href="3.html"> 선수</a></li>
+                <li><a href="4.html"> 구장</a></li>
+            </ul>
+        </div>
+    </div>
+   </div>
+   <ul class="amount">
+    <li>
+        <div>
+            <div class="contents1">롯데자이언츠 우승</div>
+            <div class="contents2">1984년도, 1992년도</div>
+        </div>
+     </li>
+    <li>
+        <div>
+          <div class="contents1">영구결번</div>
+          <div class="contents2">11번 최동원</div>
+        </div>
+    </li>
+    <li>
+        <div>
+          <div class="contents1">연고지</div>
+          <div class="contents2">부산</div>
+        </div>
+    </li>
+    <li>
+        <div>
+          <div class="contents1">2군 구장</div>
+          <div class="contents2">상동 야구장</div>
+        </div>
+    </li>
+
+    </ul>
+   
+     
+  </body>
+  
+    
